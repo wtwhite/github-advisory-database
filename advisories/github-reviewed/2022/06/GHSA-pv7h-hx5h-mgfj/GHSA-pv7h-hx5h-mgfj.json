@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv7h-hx5h-mgfj",
-  "modified": "2022-06-20T21:58:53Z",
+  "modified": "2023-10-10T00:24:57Z",
   "published": "2022-06-11T00:00:17Z",
   "aliases": [
     "CVE-2022-25845"
@@ -32,6 +32,84 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.rover12421:fastjson"
+      },
+      "versions": [
+        "1.2.47"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.taobao.arthas:fastjson"
+      },
+      "versions": [
+        "1.2.80-fix"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.weicoder.extend:fastjson-extend"
+      },
+      "versions": [
+        "3.3.8"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.weicoder.extend:json-extend"
+      },
+      "versions": [
+        "3.3.6",
+        "3.3.7"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.weicoder.fork:fastjson-jdk11"
+      },
+      "versions": [
+        "1.2.66"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.servicemix.bundles:org.apache.servicemix.bundles.fastjson"
+      },
+      "versions": [
+        "1.2.41_1",
+        "1.2.44_1",
+        "1.2.45_1",
+        "1.2.46_1",
+        "1.2.47_1",
+        "1.2.47_2",
+        "1.2.49_1",
+        "1.2.51_1",
+        "1.2.54_1",
+        "1.2.56_1",
+        "1.2.57_1",
+        "1.2.58_1",
+        "1.2.59_1",
+        "1.2.61_1",
+        "1.2.62_1",
+        "1.2.68_1",
+        "1.2.72_1",
+        "1.2.73_1",
+        "1.2.74_1",
+        "1.2.75_1",
+        "1.2.76_1",
+        "1.2.78_1",
+        "1.2.79_1",
+        "1.2.80_1"
       ]
     }
   ],
@@ -71,6 +149,10 @@
     {
       "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jensdietrich/xshady-release/tree/main/CVE-2022-25845"
     }
   ],
   "database_specific": {
